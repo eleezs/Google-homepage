@@ -1,0 +1,148 @@
+.first_header {
+  margin-top: -10px;
+  height: 10vh;
+  padding: 0%;
+  /* background: red; */
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.navbar { 
+  width: 100%; 
+ /* background-color: #2b2b2b;  */
+  display: flex;
+ flex-direction: row;
+ justify-content: flex-end; 
+ margin-top: -10px;
+ margin-left: -10px; 
+ margin-right: 10px; 
+  /* float: right;  */
+ text-decoration: none;
+} 
+
+.navbar ul {
+ list-style: none;
+
+}
+
+.navbar ul li{
+ display: inline-block;
+ padding-right: 20px; 
+ /* float: right; */
+}
+
+.navbar ul li a {
+ text-decoration: none;
+ color:black;
+}
+.navbar ul li img {
+ width: 40px;
+ border-radius: 50%;
+ height: 40px; 
+ /* padding-left: 2%;  */
+} 
+
+
+.big_box {
+  /* background-color: blue; */
+  height: 60vh;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.google_img {
+  margin-left: 280px;
+  text-align: center;
+  /* background: green; */
+  margin-right: 280px;
+  padding-top: 50px;
+  
+}
+
+#search {
+  width:30px;
+  cursor: pointer;
+}
+
+.mic {
+  width: 20px;
+}
+
+#searchbox {
+  background-color: #f0f3ff;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 10px;
+  display: flex;
+  border-radius: 55px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), 6px 6px 10px 1px rgba(255, 255, 255, 0.7);
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+input {
+  font-size: 15px;
+  width:500px;
+  background: transparent;
+  outline: none;
+  border: 0;
+}
+
+.buttons {
+  /* background-color: orange; */
+  padding-top: 20px;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 480px;
+  margin-right: 480px;
+  display: flex;
+}
+
+#google_search {
+  background-color: rgb(228, 220, 220);
+  border: none;
+  padding: 5px 5px;
+  margin-left: 55px;
+  margin-right: 15px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+ #im_feeling_lucky {
+  background-color: rgb(228, 220, 220);
+  border: none;
+  padding: 5px 5px;
+  margin-left: 55px;
+  margin-right: 15px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center; 
+}  
+
+
+.feel p {
+  /* background: #2b2b2b; */
+  box-sizing:10px;
+  font-size: larger;
+  padding-left: 170px;
+  margin-top: 50px;
+}
+
+.feel p2 {
+  /* background-color: #2b2b2b; */
+  float: right;
+  margin-top: -41px;
+  padding-right: 170px;
+  font-size: larger;
+}
+
+footer {
+  background: rgb(218, 235, 230);
+  overflow: hidden;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 30vh;
+}
